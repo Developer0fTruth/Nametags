@@ -1,0 +1,33 @@
+# -----------------------
+# Nametags 1.0
+# -----------------------
+
+# For support, send FlareReturns a private Message on SPIGOT!
+# Do not use GitHub Issues Requests or the Review Section for support - you will get no
+# The Config is self-explaining - If you need help, contact me on Spigot with a PM.
+
+# PLEASE DON'T FORGOT THAT VALUES OVER 16 CHARACTERS PRODUCE ERRORS
+# THE PLUGIN WILL CUT THEM DOWN TO 16 CHARACTERS
+# YES, I ALSO MEAN COLOR CODES!
+
+# You want use Permission? This will override the settings set under this value. I suggest set this to false and make it using groups
+Permissions: false
+
+# Prefix [bevore the name]
+Prefix:
+  Users:
+    FlareReturns: '&3Dev &7| &3'
+
+  Groups:
+    Admin: '&4Admin &7| &4'
+    Staff: '&eStaff &7| &e'
+    Player: '&8Player &7| &8'
+
+# Suffx [after the name]
+Suffix:
+  Users:
+    FlareReturns: '&7[&eSexy&7]'
+
+  Groups:
+    Admin: '&7[&cOP&7]'
+    Staff: '&7[&3ASK ME!&7]'

@@ -1,0 +1,12 @@
+name: Nametags
+version: 1.0
+author: FlareReturns
+main: xyz.flarereturns.nametags.Main
+description: Better Nametags for MC 1.8 - A FlareReturns Plugin
+softdepend: [Vault]
+commands:
+  nametags:
+    description: Main Command for AdvancedNametags
+    usage: /nametags <refresh|reload|resetall|reset|getprefix|getsuffix|setprefix|setsuffix> [Player] [Prefix|Suffix ...]
+    aliases: [tag, nt, namet, ntag, nametags]
+    permission: nametags.admin
